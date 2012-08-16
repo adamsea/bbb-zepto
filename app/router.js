@@ -12,10 +12,10 @@ function(Backbone, app) {
 	var Router = Backbone.Router.extend({
 
 		/**
-		 * Object mapping of routes to their associated handlers.
-		 */
+		* Object mapping of routes to their associated handlers.
+		*/
 		routes: {
-		  "": app.defaultHome
+			"": app.defaultHome
 		},
 
 		// Default app home
